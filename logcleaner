@@ -1,0 +1,13 @@
+#!/bin/bash
+
+messages=`du /var/log/messages | cut -d '/' -f1`;
+if [ "$messages" -gt "5000" ]; then
+#echo "nie ok";
+echo "" > /var/log/messages;
+#echo "" > /var/log/syslog;
+#echo "" > /var/log/user.log;
+#service mysql restart;
+#service ido2db restart;
+else
+#echo "ok"
+fi
