@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+   <base href="https://sysadmin.marta.sldc.pl/" target="_blank">
+   <title>May the Force be with you</title>
+   <style>
+    html { color-scheme: light dark; }
+    body {font-family: Tahoma}
+   </style>
+  </head>
+  
+  <body>
+   <center> <h1>HAPPY SYSADMIN DAY!</h1> </center>
+
+   <center> <img src="hero.webp" width="60%" height="60%" title="May the force be with you!"> </center>
+
+   <h1><center><em>Have you <a href="door.html">tried</a> turning it off and on again?</em></center></h1>
+  </body>
+ </html>
