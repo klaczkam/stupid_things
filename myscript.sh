@@ -23,10 +23,11 @@ if [ -f ./test.txt  ]
    touch test.txt
    ls 
 fi
+
  read -p "podaj nazwe programu " app
-command=$(which $app) 
-echo $command
-if [ -f $command ]
+
+
+if which $app
 then 
  echo "jest zainstalowany"
 else 
